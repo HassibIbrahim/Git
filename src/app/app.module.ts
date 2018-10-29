@@ -5,6 +5,7 @@ import {HttpClientModule} from '@angular/common/http';
 import { AppComponent } from './app.component';
 import { UserComponent } from './user/user.component';
 import { RepoIntelComponent } from './repo-intel/repo-intel.component';
+import { HomeComponent } from './home/home.component';
 
 
 @NgModule({
@@ -12,7 +13,8 @@ import { RepoIntelComponent } from './repo-intel/repo-intel.component';
     AppComponent,
     HttpClientModule,
     UserComponent,
-    RepoIntelComponent
+    RepoIntelComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule
