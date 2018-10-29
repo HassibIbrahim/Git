@@ -3,14 +3,16 @@ import { NgModule } from '@angular/core';
 import {HttpClientModule} from '@angular/common/http';
 
 import { AppComponent } from './app.component';
-import { GhComponent } from './gh/gh.component';
+import { UserComponent } from './user/user.component';
+import { RepoIntelComponent } from './repo-intel/repo-intel.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    GhComponent,
-    HttpClientModule
+    HttpClientModule,
+    UserComponent,
+    RepoIntelComponent
   ],
   imports: [
     BrowserModule

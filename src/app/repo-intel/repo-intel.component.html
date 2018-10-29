@@ -1,0 +1,13 @@
+
+
+<div class="grid-container">
+  <div *ngFor="let repo of repos" class="col-xs-7 col-sm-6 col-lg-8">
+    <div *ngIf="repo.showDescription" id="repos">
+      <p><em>Name: {{repo.name}}</em></p>
+      <p>Language: {{repo.language}}</p>
+      <p>Forks: {{repo.forks}}</p>
+      <p>Stars: {{repo.stars}}</p>
+      <button class="btn btn-info btn-sm repo-link"><a target="_blank" id="repoLink" class="text-white" href={{repo.url}}>View on Github</a></button>
+    </div>
+  </div>
+</div>
