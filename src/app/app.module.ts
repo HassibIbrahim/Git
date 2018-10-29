@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { UserComponent } from './user/user.component';
 import { RepoIntelComponent } from './repo-intel/repo-intel.component';
 import { HomeComponent } from './home/home.component';
+import { HighlightDirective } from './highlight.directive';
 
 
 @NgModule({
@@ -14,7 +15,8 @@ import { HomeComponent } from './home/home.component';
     HttpClientModule,
     UserComponent,
     RepoIntelComponent,
-    HomeComponent
+    HomeComponent,
+    HighlightDirective
   ],
   imports: [
     BrowserModule
