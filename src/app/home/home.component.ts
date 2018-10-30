@@ -9,8 +9,19 @@ import { User } from '../user';
 export class HomeComponent implements OnInit {
 
   constructor() { }
+  user: User;
+  repos = [];
+  viewRepo: Boolean = false;
 
   ngOnInit() {
+
+    this.viewRepo = false;
+  }
+
+  viewAll() {
+    this.repos.forEach(repo => {
+      repo.display = true;
+    });
   }
 
 }

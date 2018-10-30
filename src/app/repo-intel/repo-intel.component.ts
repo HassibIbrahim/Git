@@ -1,6 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { Repo } from '../repo';
-import { from } from 'rxjs';
 
 @Component({
   selector: 'app-repo-intel',
